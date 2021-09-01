@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+header {
+  background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: orange;
+}
+
+.song-header {
+  background-color: #282c34;
+  color: whitesmoke;
+  margin: 5px;
+  border: 5px solid #282c34;
+  text-align: center;
+}
+
+.table {
+  background-color: #282c34;
+
+}
+.tableBody {
+  background-color: rgb(99, 99, 99);
+  color: black;
+}
+.SongForm {
+  background-color: rgb(7, 6, 6);
+  padding: 5px;
+  margin: 10px;
+}
+
+.inputText {
+  height: 25px;
+  margin: 10px;
+}
+.inputDropDown {
+  height: 25px;
+  margin: 10px;
+}
