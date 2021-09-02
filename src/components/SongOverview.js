@@ -57,7 +57,6 @@ class SongOverview extends React.Component {
       return (
         <div>
           <SongForm addSong={addSong} />
-        
          <table style={{ width: "100%" }} className="song-header">
            <thead >
              <tr>
@@ -75,7 +74,7 @@ class SongOverview extends React.Component {
                </th>
              </tr>
            </thead>
-           <SongList songList={this.state.songs} />
+           <SongList songlist={this.state.songs}/>
          </table>
        </div>
       );

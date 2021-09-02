@@ -6,8 +6,7 @@ const Table = ({ item }) => {
         <td>{item.song}</td>
         <td>{item.artist}</td>
         <td>{item.genre}</td>
-        <td>{item.rating}</td>
-      </tr>
+        <td>{item.rating}</td></tr>
     );
   };
 

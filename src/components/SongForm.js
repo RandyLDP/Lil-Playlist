@@ -5,6 +5,7 @@ class SongForm extends React.Component {
     constructor(){
         super()
         this.state = {
+            id:'',
             song: '',
             artist: '',
             genre: '',
@@ -62,6 +63,8 @@ class SongForm extends React.Component {
                 </select>
 
                 <input type="submit" value="submit" />
+                { console.log(handleSubmit) }
+                { console.log(handleChange) }
                 
             </form>
         </div>
