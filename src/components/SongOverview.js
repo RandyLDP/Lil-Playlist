@@ -51,7 +51,7 @@ class SongOverview extends React.Component {
         const sortByRating = () => {
           const currentState = this.state.songs;
           this.setState(
-            currentState.sort((b, a) => a.rating.localeCompare(b.rating))
+            currentState.sort((a, b) => a.rating.localeCompare(b.rating, {'numeric': true}))
           );
         };
       return (
